@@ -62,7 +62,7 @@ export default function BookingModal({ teacher, onClose }) {
     <div className={styles.backdrop} onClick={onClose}>
       <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
         <button type="button" className={styles.closeBtn} onClick={onClose}>
-          <img src="/src/assets/x.svg" alt="Close button" />
+          <img src="/assets/x.svg" alt="Close button" />
         </button>
 
         <div className={styles.modalContainer}>

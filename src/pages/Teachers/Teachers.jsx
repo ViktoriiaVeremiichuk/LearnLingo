@@ -96,14 +96,14 @@ export default function Teachers() {
                   <span className={styles.languagesTitle}>Languages</span>
                   <ul className={styles.stats}>
                     <li className={styles.listStyle}>
-                      <img src="/src/assets/book-open.svg" alt="book-open" />
+                      <img src="/assets/book-open.svg" alt="book-open" />
                       Lessons online
                     </li>
                     <li className={styles.listStyle}>
                       Lessons done: {teacher.lessons_done}
                     </li>
                     <li className={styles.listStyle}>
-                      <img src="/src/assets/star.svg" alt="star" /> Rating:{" "}
+                      <img src="/assets/star.svg" alt="star" /> Rating:{" "}
                       {teacher.rating}
                     </li>
                     <li className={styles.listStyle}>
@@ -129,8 +129,8 @@ export default function Teachers() {
                         <img
                           src={
                             isFavorite
-                              ? "/src/assets/heart-filled.svg"
-                              : "/src/assets/heart.svg"
+                              ? "/assets/heart-filled.svg"
+                              : "/assets/heart.svg"
                           }
                           alt="favorite"
                         />
@@ -172,14 +172,14 @@ export default function Teachers() {
                         <li key={index} className={styles.reviewItem}>
                           <div className={styles.reviewerHeader}>
                             <img
-                              src="/src/assets/avatar-default.svg"
+                              src="/assets/avatar-default.svg"
                               alt={review.reviewer_name}
                               className={styles.reviewerAvatar}
                             />
                             <div className={styles.reviewerInfo}>
                               <b>{review.reviewer_name}</b>
                               <span>
-                                <img src="/src/assets/star.svg" alt="star" />{" "}
+                                <img src="/assets/star.svg" alt="star" />{" "}
                                 {review.reviewer_rating}
                               </span>
                             </div>

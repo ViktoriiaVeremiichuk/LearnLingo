@@ -37,7 +37,7 @@ export default function Header() {
         <NavLink className={styles.logoContainer} to="/">
           <img
             className={styles.logoIcon}
-            src="/src/assets/ukraine.svg"
+            src="/assets/ukraine.svg"
             alt="Ukraine"
           />
           <span className={styles.logoText}>LearnLingo</span>
@@ -77,7 +77,7 @@ export default function Header() {
                 className={styles.login_btn}
                 onClick={() => setIsLoginOpen(true)}
               >
-                <img src="/src/assets/log-in.svg" alt="log-in btn" />
+                <img src="/assets/log-in.svg" alt="log-in btn" />
                 Log in
               </button>
               <button

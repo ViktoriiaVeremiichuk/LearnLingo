@@ -20,7 +20,7 @@ export default function Home() {
           </Link>
         </div>
         <div className={styles.home_image}>
-          <img src="/src/assets/home-img.png" alt="Ukraine" />
+          <img src="/assets/home-img.png" alt="Ukraine" />
         </div>
       </div>
 

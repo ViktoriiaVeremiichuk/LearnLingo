@@ -65,7 +65,7 @@ export default function LoginModal({ onClose }) {
     <div className={styles.modalOverlay} onClick={handleOverlayClick}>
       <div className={styles.modalContent}>
         <button className={styles.closeBtn} onClick={onClose}>
-          <img src="/src/assets/x.svg" alt="Close modal" />
+          <img src="/assets/x.svg" alt="Close modal" />
         </button>
 
         <h2 className={styles.title}>Log In</h2>
@@ -102,9 +102,7 @@ export default function LoginModal({ onClose }) {
               >
                 <img
                   src={
-                    showPassword
-                      ? "/src/assets/eye-on.svg"
-                      : "/src/assets/eye-off.svg"
+                    showPassword ? "/assets/eye-on.svg" : "/assets/eye-off.svg"
                   }
                   alt="Toggle password visibility"
                 />

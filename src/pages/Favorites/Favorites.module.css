@@ -1,0 +1,241 @@
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  width: 100%;
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 500;
+  color: #121417;
+}
+
+.teacherCard {
+  border-radius: 24px;
+  padding: 24px;
+  width: 1184px;
+  background: #fff;
+  margin-bottom: 64px;
+}
+
+.cardContent {
+  display: flex;
+  gap: 48px;
+}
+.avatarWrapper {
+  border: 3px solid #fbe9ba;
+  border-radius: 100px;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  flex-shrink: 0;
+}
+
+.avatar {
+  border-radius: 100px;
+  width: 96px;
+  height: 96px;
+}
+
+.teacherInfo {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.languagesTitle {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #8a8a89;
+}
+
+.topInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.listStyle {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #121417;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.price {
+  color: #38cd3e;
+}
+
+.listStyle:not(:last-child):after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 16px;
+  background-color: rgba(18, 20, 23, 0.2);
+  margin-left: 16px;
+}
+
+.favoriteBtn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  color: #121417;
+  margin-bottom: 32px;
+}
+
+.details {
+  margin-bottom: 16px;
+}
+
+.detailList {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #8a8a89;
+  margin-bottom: 8px;
+}
+
+.listInfoUnderline {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #121417;
+}
+
+.listInfo {
+  color: #121417;
+}
+
+.readMoreBtn {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #121417;
+  margin-bottom: 32px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.experience {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #121417;
+  margin-bottom: 32px;
+}
+
+.reviewerHeader {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #8a8a89;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.reviewerAvatar {
+  width: 44px;
+  height: 44px;
+}
+
+.reviewerInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewComment {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #121417;
+  margin-bottom: 32px;
+}
+
+.levelsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.levelTag {
+  display: inline-block;
+  padding: 8px 12px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 114%;
+  color: #121417;
+  border: 1px solid rgba(18, 20, 23, 0.2);
+  border-radius: 35px;
+  padding: 8px 12px;
+}
+
+.levelTag:first-child {
+  background-color: #f4c550;
+  border-color: #f4c550;
+}
+
+.loadMoreBtn {
+  border-radius: 12px;
+  padding: 16px 48px;
+  height: 60px;
+  background: #f4c550;
+  border-color: transparent;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 156%;
+  color: #121417;
+  cursor: pointer;
+}
+
+.loadMoreBtn:hover {
+  background: #ffdc86;
+}

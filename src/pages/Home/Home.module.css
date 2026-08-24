@@ -1,0 +1,112 @@
+.home_content {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 20px;
+}
+
+.home_text {
+  display: flex;
+  flex-direction: column;
+  padding: 98px 108px 98px 64px;
+  border-radius: 30px;
+  background: #f8f8f8;
+  box-sizing: border-box;
+  width: 720px;
+  height: 530px;
+}
+
+.title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 117%;
+  letter-spacing: -0.02em;
+  color: #121417;
+  max-width: 548px;
+  margin-bottom: 32px;
+}
+
+.title_span {
+  font-weight: 400;
+  font-style: italic;
+  border-radius: 8px;
+  width: 195px;
+  height: 40px;
+  background: #fbe9ba;
+}
+
+.text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 138%;
+  letter-spacing: -0.02em;
+  color: #121417;
+  max-width: 471px;
+  margin-bottom: 64px;
+}
+
+.getStartedBtn {
+  border-radius: 12px;
+  padding: 16px 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 267px;
+  height: 60px;
+  background: #f4c550;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 156%;
+  color: #121417;
+}
+
+.getStartedBtn:hover {
+  background: #ffdc86;
+}
+
+.home_image {
+  border-radius: 30px;
+  width: 568px;
+  height: 530px;
+}
+
+.stats_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 122px;
+  margin-top: 50px;
+  margin-bottom: 32px;
+  border: 1.5px dashed #f4c550;
+  border-radius: 30px;
+}
+
+.stat_item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+}
+
+.stat_item h3 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 114%;
+  letter-spacing: -0.02em;
+  color: #121417;
+}
+
+.stat_item p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: rgba(18, 20, 23, 0.7);
+  max-width: 72px;
+  text-align: start;
+}
